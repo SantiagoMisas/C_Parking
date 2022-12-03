@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.body {
+font-family: 'Quicksand', sans-serif;
+width: 100vw;
+height: 100vh;
+position: absolute;
+top: 0px;
+left: 0px;
+background-image: linear-gradient(to right top, #000000, #181818, #292929, #3b3b3b, #4e4e4e);
+color: #ffc107;
+font-size: 14pt;
+
+}
+
+.form_login {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+}
+.login_input::placeholder {
+    color:#ffc107;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
+.login_input{
+    display: flex;
+    width: 240px;
+    height: 30px;
+    outline: none;
+    background-color: #000000;
+    border-radius: 10px;
+    border-color: #ffc107;
+    text-align: center;
+    color: #ffc107;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.login_section_buttons {
+    gap: 10px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.login_button{
+    outline: none;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffc107;
+    border-color:#000000 ;
+    border-style:solid;
+    color: #000000;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.login_p{
+    font-size: 11pt;
+    color: #f8f9fa;
+}
+.login_p_title_c{
+    font-size: 62pt;
+}
+
+.login_p_subtitle{
+    font-size: 36pt;
+}
+.login_p_subtitle_{
+    font-size: 48pt;
+    color:#f8f9fa ;
+}
+.login_p_subtitle_g{
+    font-size: 62pt;
+    color: #f8f9fa;
+}

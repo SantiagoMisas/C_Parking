@@ -39,6 +39,11 @@ font-size: 14pt;
     text-align: center;
     color: #ffc107;
 }
+.login_input:hover::placeholder{
+    color: #f8f9fa;
+    transition: .3s ease all;
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -63,7 +68,7 @@ font-size: 14pt;
     outline: none;
     text-align: center;
     width: 160px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     background-color: #ffc107;
     border-color:#000000 ;
@@ -80,13 +85,14 @@ font-size: 14pt;
 .login_button::after{
 content: "";
 width: 160px;
-height: 30px;
+height: 100px;
 background: #f8f9fa;
 position: absolute;
 z-index: 1;
-top: -80px;
+top: -300px;
 left: 0;
-transition: .3s ease-in-out all;
+transition: .6s ease-in-out all;
+border-radius: 0px 0px 300px 300px;
 }
 span{
     position: relative;
@@ -109,7 +115,15 @@ span{
     padding: 5px;
     border-style: solid;
     border-color: #f8f9fa;
+
 }
+.login_title:hover{
+color: #f8f9fa;
+background-color: #343a40;
+transition: .6s ease all;
+
+}
+
 .login_p_title_c{
     font-size: 62pt;
 }
@@ -137,4 +151,9 @@ span{
     color: #f8f9fa;
     border-radius: 10px;
     padding: 5px;
+}
+
+.login_icon:hover{
+    background-color: #ffc107;
+    transition: .3s ease all;
 }

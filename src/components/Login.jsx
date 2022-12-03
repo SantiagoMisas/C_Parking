@@ -10,6 +10,7 @@ const Login= ()=>{
                 <img className="login_icon" src="./truck.svg" alt="" />
                 <img className="login_icon" src="./car.svg" alt="" />
             </section>
+           
         <section className="flex login_title">
                 <p className="login_p_title_c">C</p>
                 <p className="login_p_subtitle_">-</p>

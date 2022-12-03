@@ -77,6 +77,13 @@ font-size: 14pt;
     font-size: 11pt;
     color: #f8f9fa;
 }
+.login_title{
+    background-color:#000000;
+    border-radius: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #f8f9fa;
+}
 .login_p_title_c{
     font-size: 62pt;
 }

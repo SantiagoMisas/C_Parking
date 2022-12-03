@@ -20,11 +20,11 @@ const Login= ()=>{
             <input className="login_input" placeholder='Contraseña' type="text"/>
             <section className="flex login_section_buttons">
                 <section className="column">
-                    <button className="login_button">Iniciar Sesión</button>
+                    <button className="login_button"><span>Iniciar Sesión</span></button>
                     <p className="login_p">¿Ya tienes una cuenta?</p>
                 </section>
                 <section className="column">
-                        <button className="login_button">Registrarse</button>
+                        <button className="login_button"> <span>Registrarse</span></button>
                         <p className="login_p">¿No tienes una cuenta?</p>
                 </section>
             </section>

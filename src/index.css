@@ -102,7 +102,7 @@ span{
 
 .login_button:hover::after{
     top: 0;
-    color: #343a40;
+    color: #212529;
 }
 
 .login_p{
@@ -119,7 +119,7 @@ span{
 }
 .login_title:hover{
 color: #f8f9fa;
-background-color: #343a40;
+background-color: #212529;
 transition: .6s ease all;
 
 }
@@ -156,4 +156,87 @@ transition: .6s ease all;
 .login_icon:hover{
     background-color: #ffc107;
     transition: .3s ease all;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.navbar_button{
+    outline: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    background:none;
+    border: none;
+    color:#f8f9fa;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 5px;
+    margin-top: 10px;
+    transition: .7s ease all;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar_button svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.navbar_button rect {
+	width: 100%;
+	height: 100%;
+	stroke: #f8f9fa;
+	stroke-width: 5px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .7s ease all;
+    border-radius: 10px;
+}
+
+.navbar_button:hover rect {
+	stroke-dashoffset: 0;
+}
+
+.navbar_input {
+    display: flex;
+    width: 240px;
+    height: 30px;
+    outline: none;
+    background-color: #000000;
+    border-radius: 10px;
+    border-color: #ffc107;
+    text-align: center;
+    color: #ffc107;
+}
+
+.navbar_icon{
+    width: 35px;
+    height: 35px;
+    color: #f8f9fa;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffc107;
+}
+
+.navbar_icon:hover{
+    transition: .3s ease all;
+}
+
+.navbar_icon_margin_top{
+    margin-top: 5px;
 }

@@ -9,8 +9,6 @@ left: 0px;
 background-image: linear-gradient(to right top, #000000, #181818, #292929, #3b3b3b, #4e4e4e);
 color: #ffc107;
 font-size: 14pt;
-position: relative;
-z-index: 99;
 
 }
 

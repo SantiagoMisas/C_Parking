@@ -224,13 +224,25 @@ nav{
     color: #ffc107;
 }
 
+.navbar_input:hover::placeholder{
+    color: #f8f9fa;
+    transition: .3s ease all;
+}
+
+.navbar_input::placeholder {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
 .navbar_icon{
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     color: #f8f9fa;
     border-radius: 10px;
     padding: 5px;
     background-color: #ffc107;
+    margin-left: 3px;
 }
 
 .navbar_icon:hover{

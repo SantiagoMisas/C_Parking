@@ -10,6 +10,7 @@ function App() {
   return (
     <section className="body">
     <Navbar/>
+    <Login/>
 
     </section>
   )

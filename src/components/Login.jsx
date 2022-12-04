@@ -4,14 +4,14 @@ const Login= ()=>{
     <section className="column">
 
         <form className="form_login" action='' method=''>
-        <section className="flex login_section_icons">
+            <section className="flex login_section_icons">
                 <img className="login_icon" src="./motorcycle.svg" alt="" />
                 <img className="login_icon" src="./van.svg" alt="" />
                 <img className="login_icon" src="./truck.svg" alt="" />
                 <img className="login_icon" src="./car.svg" alt="" />
             </section>
            
-        <section className="flex login_title">
+            <section className="flex login_title">
                 <p className="login_p_title_c">C</p>
                 <p className="login_p_subtitle_">-</p>
                 <p className="login_p_subtitle">Parkin</p>

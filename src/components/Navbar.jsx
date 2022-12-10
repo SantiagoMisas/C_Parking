@@ -11,8 +11,8 @@ return(
 		</svg>
     </button>
     <button className="navbar_button">
-        <span className="flex navbar_button_span">Inventarios
-        <img  className="navbar_icon" src="./i.svg" alt="" />
+        <span className="flex navbar_button_span">Facturas
+        <img  className="navbar_icon" src="./money_invoice.svg" alt="" />
         </span>
         <svg>
 		<rect x="0" y="0" fill="none"></rect>

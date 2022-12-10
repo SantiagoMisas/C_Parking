@@ -206,12 +206,11 @@ nav{
 	stroke-dashoffset: 1000;
 	transition: .7s ease all;
     border-radius: 10px;
-}
 
+}
 .navbar_button:hover rect {
 	stroke-dashoffset: 0;
 }
-
 .navbar_input {
     display: flex;
     width: 240px;

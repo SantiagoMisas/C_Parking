@@ -12,7 +12,7 @@ return(
     </button>
     <button className="navbar_button">
         <span className="flex navbar_button_span">Inventarios
-        <img  className="navbar_icon" src="./bookmark.svg" alt="" />
+        <img  className="navbar_icon" src="./i.svg" alt="" />
         </span>
         <svg>
 		<rect x="0" y="0" fill="none"></rect>

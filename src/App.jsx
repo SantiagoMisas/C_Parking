@@ -9,6 +9,7 @@ import { TableVehicle } from './components/TableVehicle';
 import { TableProduct } from './components/TableProduct';
 import { TableService } from './components/TableService';
 import { TableBilling } from './components/TableBilling';
+import { Footer } from './components/Footer';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,7 +17,7 @@ function App() {
     <section className="body">
     <Navbar/>
    <TableVehicle/>
-
+  <Footer/>
     </section>
   )
 }

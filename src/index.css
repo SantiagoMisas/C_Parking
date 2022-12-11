@@ -73,6 +73,9 @@ font-size: 14pt;
     width: 98%;
     height: 45px;
 }
+.background_black{
+    background-color: #000000;
+}
 
 .login_section_buttons {
     gap: 10px;
@@ -203,6 +206,10 @@ nav{
     position: relative;
     overflow: hidden;
 }
+.navbar_button:hover{
+    color: #ffc107;
+    transition: .3s ease all;
+    }
 
 .navbar_button svg {
 	width: 100%;
@@ -262,6 +269,7 @@ nav{
 
 .navbar_icon:hover{
     transition: .3s ease all;
+    background-color: #f8f9fa;
 }
 
 .navbar_icon_margin_top{
@@ -303,7 +311,7 @@ caption{
 .form_table_input::placeholder {
     color:#ffc107;
     text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 800;
 }
 
@@ -326,8 +334,8 @@ caption{
 .form_table_button{
     outline: none;
     text-align: center;
-    width: 160px;
-    height: 35px;
+    width: 100px;
+    height: 10px;
     border-radius: 10px;
     background-color: #f8f9fa;
     border-color:#000000 ;
@@ -335,7 +343,7 @@ caption{
     color: #000000;
     padding-bottom: 30px;
     font-weight: bold;
-    font-size: 15pt;
+    font-size: 12pt;
     transition: .3s ease all;
     position: relative;
     overflow: hidden;
@@ -368,7 +376,7 @@ span{
     outline: none;
     text-align: center;
     width: 200px;
-    height: 38px;
+    height: 30px;
     border-radius: 10px;
     background-color: #ffc107;
     border-color:#000000 ;
@@ -376,7 +384,7 @@ span{
     color: #000000;
     padding-bottom: 30px;
     font-weight: bold;
-    font-size: 15pt;
+    font-size: 12pt;
     transition: .3s ease all;
     position: relative;
     overflow: hidden;
@@ -415,3 +423,110 @@ span{
 .table_close_icon:hover{
     transition: .3s ease all;
 }
+
+.footer_icon{
+    width: 30px;
+    height: 30px;
+    color: #f8f9fa;
+    background-color:#f8f9fa;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer_icon:hover{
+    background-color: #ffc107;
+    transition: .3s ease all;
+}
+
+.footer {
+    gap: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer_button{
+    outline: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background:none;
+    border: none;
+    color:#f8f9fa;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 11pt;
+    margin: 5px;
+    margin-top: 10px;
+    transition: .7s ease all;
+    position: relative;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.footer_button svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.footer_button rect {
+	width: 100%;
+	height: 100%;
+	stroke: #ffc107;
+	stroke-width: 5px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .7s ease all;
+    border-radius: 10px;
+
+}
+.footer_button:hover rect {
+	stroke-dashoffset: 0;
+}
+.footer_button_span{
+    gap: 3px;
+}
+.footer_button:hover{
+color: #ffc107;
+transition: .3s ease all;
+}
+
+.footer_p_title_c{
+    font-size: 24pt;
+    color: #f8f9fa;
+}
+
+.footer_p_subtitle{
+    font-size: 16pt;
+}
+.footer_p_subtitle_{
+    font-size: 18pt;
+    color:#f8f9fa ;
+}
+.footer_p_subtitle_g{
+    font-size: 22pt;
+    color: #f8f9fa;
+}
+.footer_title{
+    background-color:#000000;
+    padding: 5px;
+    padding-top: 15px;
+    border-top: #f8f9fa;
+    border-style: solid;
+    border: 5px;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

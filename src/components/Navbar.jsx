@@ -1,7 +1,7 @@
 const Navbar=()=>{
 return(
 
-<nav>
+<nav className>
     <button className="navbar_button">
         <span className="flex navbar_button_span">Clientes
         <img  className="navbar_icon" src="./user.svg" alt="" />

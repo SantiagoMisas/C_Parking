@@ -69,6 +69,11 @@ font-size: 14pt;
     margin: 10px;
 }
 
+.standar_measure {
+    width: 98%;
+    height: 45px;
+}
+
 .login_section_buttons {
     gap: 10px;
     margin: 5px;
@@ -311,7 +316,7 @@ caption{
     border-radius: 10px;
     border-color: #f8f9fa;
     text-align: center;
-    color: #ffc107;
+    color: #f8f9fa;
 }
 .form_table_input:hover::placeholder{
     color:#f8f9fa;

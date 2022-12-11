@@ -10,7 +10,7 @@ return (
 	<input className="form_table_input" placeholder='Email' type="text"/>
 	<input className="form_table_input" placeholder='Dirección' type="text"/>
 	<input className="form_table_input" placeholder='Telefono' type="text"/>
-<section className="flex_wrap">
+<section className="flex_wrap standar_measure">
 <button className="form_table_button"><span>Agregar</span></button>
 <button className="form_table_button"><span>Editar</span></button>
 <button className="form_table_button"><span>Buscar</span></button>
@@ -30,7 +30,7 @@ return (
 		<th>Fecha De Nacimiento</th>
 		<th>Sexo</th>
 		<th>Email</th>
-		<th>Direccion</th>
+		<th>Dirección</th>
 		<th>Telefono</th>
 	</tr>
 	</thead>

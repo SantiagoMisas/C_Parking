@@ -251,3 +251,35 @@ nav{
 .navbar_icon_margin_top{
     margin-top: 5px;
 }
+
+.Section_Table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Table {
+    border:1px solid #f8f9fa;
+    border-collapse:collapse;
+    padding:5px;
+    font-size: 12pt;
+    color:#f8f9fa;
+    width: 98%;
+}
+.Table  th {
+    border:1px solid #f8f9fa;
+    padding:5px;
+    background:#000000;
+}
+.Table  td {
+    border:1px solid #f8f9fa;
+    padding:5px;
+}
+
+caption{ 
+    color: #f8f9fa;
+    font-size: 12pt;
+    font-weight: bold;
+}

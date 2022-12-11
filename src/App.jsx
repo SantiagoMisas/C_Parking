@@ -15,7 +15,7 @@ function App() {
   return (
     <section className="body">
     <Navbar/>
-    <TableBilling/>
+   <TableClient/>
 
     </section>
   )

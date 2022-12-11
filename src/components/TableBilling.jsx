@@ -2,7 +2,7 @@ const TableBilling =()=>{
     return (
      <section className="Section_Table">
 <table class="Table">
-	<caption></caption>	
+	<caption>Registro De Factura</caption>	
     <thead>	
         <tr>		
         <th>Numero De Factura</th>

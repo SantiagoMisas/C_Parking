@@ -47,6 +47,11 @@ const TableBilling =()=>{
 	</tbody>
 </table>
     </section>
+	<section className="Section_Table">
+<button className="table_close_button"><span>Cerrar Ventana
+<img  className="table_close_icon" src="./out.svg" alt="" />
+</span></button>
+</section>
 	</section>
     ) }
     

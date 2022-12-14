@@ -5,7 +5,7 @@ const Login= ()=>{
 
         <form className="form_login" action='' method=''>
             <section className="flex login_section_icons">
-                <img className="login_icon" src="./motorcycle.svg" alt="" />
+                <img className="login_icon" src="/motorcycle.svg" alt="" />
                 <img className="login_icon" src="./van.svg" alt="" />
                 <img className="login_icon" src="./truck.svg" alt="" />
                 <img className="login_icon" src="./car.svg" alt="" />

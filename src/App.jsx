@@ -16,7 +16,7 @@ function App() {
   return (
     <section className="body">
     <Navbar/>
-   <TableVehicle/>
+   <TableClient/>
   <Footer/>
     </section>
   )

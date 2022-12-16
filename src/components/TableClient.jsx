@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const TableClient = () => {
   const uriClientes = "http://localhost:3100/clientes";
-  const [cliente, setCliente] = useState([]);
+  const [clientes, setCliente] = useState([]);
   useEffect(() => {
     getClientes();
   }, []);
